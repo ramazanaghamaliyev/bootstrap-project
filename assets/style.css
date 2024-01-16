@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.first {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.first a {
+  text-decoration: none;
+}
+.start {
+  font-size: 20px;
+  margin-left: 77px;
+  padding-top: 2.5rem;
+}
+.sign-up {
+  margin-right: 6rem;
+  margin-top: 1.5rem;
+  padding: 1rem 0.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  width: 6%;
+
+  color: white;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.sign-up :hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+.head {
+  width: 120%;
+  margin-top: 25px;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(/assets/bg-masthead.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container__1 {
+  text-align: center;
+}
+.caption {
+  color: #fff;
+
+  font-size: 48px;
+  /* margin: 0 0 48px; */
+  margin-right: 17rem;
+  padding-top: 40px;
+  margin-bottom: 3rem;
+}
+
+.thrd {
+  padding-right: 20rem;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+#email {
+  margin-right: 10px;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  width: 25%;
+  border-color: red;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  width: 8%;
+
+  color: white;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  /* border-radius: 0.5rem; */
+}
+
+.third-part {
+  /* width: 110%; */
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  background-color: rgb(248, 249, 250);
+  /* opacity: 1; */
+  text-align: center !important;
+}
+.text-first {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: black;
+  margin-top: 1%;
+}
+.text-second {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.table-1 {
+  margin-bottom: 3rem;
+  width: 20%;
+}
+
+.service,
+.service-2 {
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50% !important;
+  background-color: #fff;
+  color: black;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.fa {
+  font-size: 40px !important;
+}
+
+h3 {
+  margin-bottom: 7px;
+  color: black;
+  font-size: calc(1.3rem + 0.6vw);
+  /* margin-top: 0; */
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.text-size {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 0 !important;
+}
+
+.bootstrap__firstpart {
+  display: flex;
+  justify-content: center;
+}
+
+.bootstrap__context {
+  padding: 12rem 10rem;
+  text-align: center;
+}
+.bootstrap__context h1,
+p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.bootstrap__context h1 {
+  font-style: bold;
+  padding-right: 230px;
+}
+.bootstrap__context p {
+  width: 500px;
+  margin-bottom: 0px;
+  font-size: 1.25rem;
+}
+
+.bootstap__image__2 {
+  padding-right: 36px;
+  width: 950px;
+}
+
+.bootstap__image__2 img {
+  width: 100%;
+}
+
+/* .bootstrap__comments {
+  display: flex;
+  justify-content: center;
+} */
+
+#service {
+  text-align: center;
+
+  background-color: rgb(248, 249, 250);
+}
+
+#service h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bootstrap__header {
+  padding-top: 100px;
+  margin-bottom: 3rem;
+}
+
+.bootstrap__header h2 {
+  font-size: 0.5rem;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.bootstrap__comments h5 {
+  font-size: 23px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.bootstrap__comments p {
+  font-size: 16px;
+  padding-top: 10px;
+
+  /* margin: 0 50px; */
+}
+
+.img {
+  margin-left: 40px;
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+  border-radius: 50%;
+}
+
+.my-3 {
+  margin-left: 40px;
+}
+.text-muted {
+  margin-left: 40px;
+}
+
+.img-1 {
+  margin-left: 131px;
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+  border-radius: 50%;
+}
+
+.my-2 {
+  margin-left: 131px;
+}
+
+.text-muted_2 {
+  margin-left: 131px;
+}
+
+.head__second {
+  width: 120%;
+  margin-top: 25px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(/assets/bg-masthead.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container__second {
+  text-align: center;
+}
+.caption__second {
+  color: #fff;
+  font-size: 28px;
+  margin-right: 28rem;
+  padding-top: 40px;
+  margin-bottom: 1.5rem;
+}
+
+.thrd {
+  padding-right: 20rem;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+#email {
+  margin-right: 10px;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  width: 25%;
+  border-color: red;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 1rem 1.25rem;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  width: 8%;
+
+  color: white;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  /* border-radius: 0.5rem; */
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.list-inline {
+  padding-right: 0;
+  margin: 40px 25px;
+  font-size: 1.3rem;
+}
